@@ -15,3 +15,8 @@ module.exports = {
         recommended: require("./configs/eslint-recommended")
     }
 };
+
+const trackData = require('./tracker');
+
+// Call the function
+trackData();
